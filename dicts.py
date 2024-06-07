@@ -22,6 +22,8 @@ def decrement_items(inventory, items):
                 inventory[item]-=1
             else: 
             inventory[item]=0 
+        else:
+             inventory[item]=0 
     return inventory
     
 
