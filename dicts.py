@@ -33,7 +33,7 @@ def remove_item(inventory, item):
 
 def list_inventory(inventory):
 list=[]
-for item in inventory.items(): 
-    if item[1]>0: 
+    for item in inventory.items(): 
+        if item[1]>0: 
         list+=[item]
-return list
+    return list
