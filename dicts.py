@@ -12,7 +12,7 @@ def add_items(inventory, items):
               inventory[item]+=1
         else:
          inventory[item]=1
-    return iventory
+    return inventory
 
 
 def decrement_items(inventory, items):
@@ -32,7 +32,7 @@ def remove_item(inventory, item):
 
 
 def list_inventory(inventory):
-list=[]
+    list=[]
     for item in inventory.items(): 
         if item[1]>0: 
         list+=[item]
